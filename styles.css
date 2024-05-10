@@ -11,14 +11,6 @@ body {
 	display: flex;
 }
 
-h2 {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-label {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 #submit_button {
 	padding: 5px 15px 5px 15px;
 	margin: 10px;
@@ -28,3 +20,14 @@ label {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
 }
+
+.class {
+
+}
+
+#plan-img {
+	height: 80%;
+	width: 80%;
+}
+
+
