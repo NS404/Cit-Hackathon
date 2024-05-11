@@ -54,12 +54,12 @@ function fetchData() {
     subject_class.set('Database Systems', 'B1');
     subject_class.set('Java Programming', 'E1');
 
-    subject_color.set('Linear Algebra', '#e3e35c80');
+    subject_color.set('Linear Algebra', '#640D6B');
     subject_color.set('Operating Systems', '#04AA6D');
-    subject_color.set('Electronics', '#e3e35c80');
-    subject_color.set('Computer Architecture', '#e3e35c80');
-    subject_color.set('Database Systems', '#e3e35c80');
-    subject_color.set('Java Programming', '#e3e35c80');   
+    subject_color.set('Electronics', '#FC4100');
+    subject_color.set('Computer Architecture', '#1D24CA');
+    subject_color.set('Database Systems', '#F72798');
+    subject_color.set('Java Programming', '#D2DE32');   
 }
 
 function populateScheculeTable() {
