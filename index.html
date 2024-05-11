@@ -6,61 +6,52 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div id="selections">
-        <h2>Programi</h2>
-        <form>
-            <input type="radio" id="programi" name="radio-choice" value="programi">
-            <label for="programi">Bachelor</label><br>
-          
-            <input type="radio" id="programi1" name="radio-choice" value="programi1">
-            <label for="programi1">Master</label><br>
-        </form>
-        <br>
 
-        <h2>Viti</h2>
-        <form>
-            <input type="radio" id="viti1" name="radio-choice" value="viti1">
-            <label for="viti1">Viti i pare</label><br>
-          
-            <input type="radio" id="viti2" name="radio-choice" value="viti2">
-            <label for="viti2">Viti i dyte</label><br>
-          
-            <input type="radio" id="viti3" name="radio-choice" value="viti3">
-            <label for="viti3">Viti i trete</label><br>
-        </form>
-        <br>
-        <h2>Dega</h2>
-        <form>
-            <input type="radio" id="dega1" name="radio-choice" value="dega1">
-            <label for="dega1">Dega e pare</label><br>
-          
-            <input type="radio" id="dega2" name="radio-choice" value="dega2">
-            <label for="dega2">Dega e dyte</label><br>
-          
-            <input type="radio" id="dega3" name="radio-choice" value="dega3">
-            <label for="dega3">Dega e trete</label><br>
-        </form>
-        <br>
-        <input type="submit" id="submit_button" value="Submit">
+</div>
+<body>
+    <div id="info-bar">
+        <div id="student-info">
+            <p><b>Dega: </b>Shkence Kompjuterike</p>
+            <p><b>Viti: </b>1</p>
+
+        </div>
+        <div id="orari">
+            <h2>Orari</h2>
+            <!-- <div class="subject">Linear Algebra <div class="color"></div></div>
+            <div class="subject">Operating Systems <div class="color"></div></div>
+            <div class="subject">Electronics <div class="color"></div></div>
+            <div class="subject">Computer Architecture <div class="color"></div></div> -->
+        </div>
     </div>
         
-        <div id="floor-plan">
-            <img id="plan-img" src="images/floor-plan-2.JPG" alt="floor-plan">
-            <div class="class" id="A2"></div>
-            <div class="class" id="B2"></div>
-            <div class="class" id="C2"></div>
-            <div class="class" id="D2"></div>
-            <div class="class" id="E2"></div>
-            <div class="class" id="F2"></div>
-            <div class="class" id="G2"></div>
-            <div class="class" id="H2"></div>
-            <div class="class" id="I2"></div>
-            <div class="class" id="K2"></div>
+    <div id="floor-plan">
+        <img id="plan-img" src="images/floor-plan-2.png" alt="floor-plan">
+        <div class="right-side">
             <div class="class" id="LAB1"></div>
-            <div class="class" id="LAB2"></div>
+            <div class="class" id="E1"></div>
         </div>
-    
+        <div class="left-side">
+            <div class="class" id="D1"></div>
+            <div class="class" id="C1"></div>
+            <div class="class" id="B1"></div>
+            <div class="class" id="A1"></div>
+        </div>
+    </div>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="8" value="1" class="slider" id="myRange">
+    </div>
+    <div class="slider-labels">
+        <p class="sl">09:00</p>
+        <p class="sl">10:00</p>
+        <p class="sl">11:00</p>
+        <p class="sl">12:00</p>
+        <p class="sl">13:00</p>
+        <p class="sl">14:00</p>
+        <p class="sl">15:00</p>
+        <p class="sl">16:00</p>
+    </div>
+        
     <script src="script.js"></script>
 </body>
 </html>
